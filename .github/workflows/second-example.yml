@@ -1,10 +1,6 @@
 name: Read README, List Files, and Welcome
 
-on:
-  push:
-    branches:
-      - main
-  workflow_dispatch:
+on: [push]
 
 jobs:
   readme-and-files:
